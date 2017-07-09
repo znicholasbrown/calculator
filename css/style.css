@@ -1,0 +1,147 @@
+body{
+  background-color: #282828;
+}
+.body-background1 {
+  width: 350px;
+  height: 460px;
+  background-color: #123247;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 1.5%;
+  border: 3px solid #123247;
+  position: relative;
+  
+}
+.body-background {
+  width: 350px;
+  height: 460px;
+  background-color: #2980B9;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-radius: 1.5%;
+  border: 3px solid #123247;
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 3.75%;
+  font-family: 'Kumar One', cursive;
+}
+.display {
+  width: 300px;
+  height: 100px;
+  background-color: #66FF66;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10%;
+  position: relative;
+  border-top: 5px solid #9D9454;
+  border-left: 5px solid #9D9454;
+  border-right: 5px solid #D6CB81;
+  border-bottom: 5px solid #D6CB81;
+  border-radius: 1.5%;
+  font-family: 'Exo', sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow: hidden;
+}
+.current {
+  margin-top: -1.5%;
+  font-size: 48px;
+  color: red;
+  height: 75px;
+  text-align: right;
+}
+.answer {
+  margin-top: -1.5%;
+  text-align: right;
+  font-size: 48px;
+  color: red;
+  height: 75px;
+}
+.history {
+  margin-top: -4.5%;
+  font-size: 20px;
+  color: red;
+  height: 20px;
+  text-align: right;
+}
+.input {
+  margin-left: auto;
+  margin-right: auto;
+  top: 14%;
+  width: 300px;
+  position: relative;
+  
+}
+.button_rows {
+  margin-top: 5px;
+  margin-left: 0.5px;
+}
+.buttons {
+  width: 65px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+}
+.equals_button {
+  height: 105px;
+  width: 65px;
+  position: absolute;
+  margin-left: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+  background-color: #F4D03F;
+  box-shadow: 1px 2px 0px #C6A934;
+}
+.zero_button {
+  height: 50px;
+  width: 140px;
+  margin-left: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+}
+button {
+  background-color: #7C7C7C;
+  border: none;
+  border-radius: 7.5%;
+  box-shadow: 1px 2px 0px black;
+}
+.ac_button {
+  background-color: #E74C3C;
+  box-shadow: 1px 2px 0px #BA382A;
+}
+.ce_button {
+  background-color: #85C1E9;
+  box-shadow: 1px 2px 0px #1A5276;
+}
+.activated,
+button:active {
+  box-shadow: 1px 1px 1px black;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.credit {
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  top: 95%;
+  left: 25%;
+  text-align: center;
+  width: 50%;
+  color: white;
+}
